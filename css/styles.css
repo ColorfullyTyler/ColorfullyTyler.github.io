@@ -1,5 +1,13 @@
 /*Just some styles I want to override from Bootstrap*/
 
-body {
-  padding-top: 0px;
+
+/*.jumbotron {
+  background: url(../img/tunnelOfLove.jpg) no-repeat center center;
+  background-width: 100%;
+  background-height: 100%;
+}*/
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
 }

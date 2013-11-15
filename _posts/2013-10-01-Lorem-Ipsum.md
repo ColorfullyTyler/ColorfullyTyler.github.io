@@ -1,6 +1,9 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
+title: What would happen if Pokemon were suddenly real? A thought experiement.
 layout: post
+tags:
+- Pokemon
+- Popular
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\

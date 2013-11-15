@@ -1,6 +1,9 @@
 ---
-title: Consectetur Elit
+title: How to create a free Minecraft server on Amazon Prime
 layout: post
+tags:
+- Minecraft
+- Popular
 ---
 
 Sed id lacus eu urna ullamcorper mattis. Etiam ut nunc erat. Sed et velit a\
