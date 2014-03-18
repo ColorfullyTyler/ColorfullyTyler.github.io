@@ -1,13 +1,22 @@
-/*Just some styles I want to override from Bootstrap*/
-
-
-/*.jumbotron {
-  background: url(../img/tunnelOfLove.jpg) no-repeat center center;
-  background-width: 100%;
-  background-height: 100%;
-}*/
-
 .navbar {
-  margin-bottom: 0px;
-  border-radius: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.center {
+	text-align:center;
+}
+
+
+/*test stuff*/
+.block1 {
+	/*background-image:url('http://upload.wikimedia.org/wikipedia/commons/9/90/Sunset_Marina.JPG');*/
+}
+.block2 {
+	/*background-image:url('http://www.arizona-leisure.com/gfx/gallery/sunsets/sedona-sunset.jpg')*/
+}
+
+.vertCenter {
+	display: inline-block;
+	vertical-align: middle;
 }
