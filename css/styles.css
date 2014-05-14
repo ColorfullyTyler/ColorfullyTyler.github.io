@@ -7,26 +7,6 @@
 	text-align:center;
 }
 
-
-/*test stuff*/
-.block1 {
-	/*background-image:url('http://upload.wikimedia.org/wikipedia/commons/9/90/Sunset_Marina.JPG');*/
-}
-.block2 {
-	/*background-image:url('http://www.arizona-leisure.com/gfx/gallery/sunsets/sedona-sunset.jpg')*/
-}
-
-.vertCenter {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.jumbotron {
-	background-image:url('/img/background.jpg');
-	background-size: cover;
-	/*height: 95%;*/
-}
-
 @media(max-width: @screen-xs-max){}
 @media(min-width: @screen-tablet){}     /* or @screen-sm */
 @media(min-width: @screen-desktop){}    /* or @screen-md */
@@ -47,24 +27,15 @@ p,h1,h2,h3,h4,h5,h6 {
 	color: #eee;
 }
 
+.jumbotron {
+	background: url('/img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+}
 
-
-
-/*vertical center the landing page welcome message*/
 body, html {
 	height: 100%;
-}
-#parent {height: 100%;}
-
-#floater {
-    float: left;
-    height: 40%;
-    width: 100%;
-    margin-bottom: -100px;
-}
-
-#child {
-    clear: both;
-    height: 200px;
-}
-
+} 
