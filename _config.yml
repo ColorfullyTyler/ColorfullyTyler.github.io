@@ -1,10 +1,13 @@
 name: "Colorfully, Tyler"
-description: "A pretty cool place on the internet"
+description: "A pretty cool place on the internet ya know"
 
-url: “www.colorfullytyler.com”
+url: "www.colorfullytyler.com"
 
 paginate: 10
 
 markdown: rdiscount
 permalink: pretty
 pygments: true
+highlighter: pygments
+
+excerpt_separator: <!--more-->
