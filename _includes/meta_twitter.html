@@ -6,7 +6,7 @@
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:title" content="{{ site.name }}">
 {% endif %}
 
 
@@ -25,5 +25,5 @@
 {% if page.image %}
   <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.image }}">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/logo.png">
+  <meta name="twitter:image:src" content="{{ site.url }}/img/homepage.png">
 {% endif %}

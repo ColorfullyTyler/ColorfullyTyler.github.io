@@ -13,22 +13,30 @@
 @media(min-width: @screen-lg-desktop){} /* or @screen-lg */
 
 
-p,h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .navbar a {
+	font-family: 'Exo';
+}
+
+p {
 	font-family: 'Open Sans';
 }
 
 .jumbotron h1 {
-	font-weight: 800;
-	color: white;
+	font-weight: 500;
+	color: black;
 }
 
 .jumbotron h3, .jumbotron p {
-	font-weight: 400;
-	color: #eee;
+	font-weight: 300;
+	color: #4d4d4d;
+}
+
+.jumbotron h1, .jumbotron h3, .jumbotron p {
+	max-width:50%;
 }
 
 .jumbotron {
-	background: url('/img/background.jpg') no-repeat center center fixed;
+	background: url('/img/homepage.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -39,3 +47,4 @@ p,h1,h2,h3,h4,h5,h6 {
 body, html {
 	height: 100%;
 } 
+
