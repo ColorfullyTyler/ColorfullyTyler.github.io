@@ -1,12 +1,14 @@
 {% include head.html %}
 {% include navigation.html %}
 
-<div class="container">
-	<h1>{{ page.title }}</h1>
-	<p class="muted">{{ page.date | date_to_long_string }}</p>
-
+<div class="jumbotron">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		<p class="muted">{{ page.date | date_to_long_string }}</p>
+	</div>
+</div>
+<div class="container-fluid post">
 	{{ content }}
-
 </div>
 
 {% include footer.html %}

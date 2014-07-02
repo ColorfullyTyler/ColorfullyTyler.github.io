@@ -31,19 +31,33 @@ p {
 	color: #4d4d4d;
 }
 
-.jumbotron h1, .jumbotron h3, .jumbotron p {
+/*.jumbotron h1, .jumbotron h3, .jumbotron p {
 	max-width:50%;
-}
+}*/
 
 .jumbotron {
-	background: url('/img/homepage.jpg') no-repeat center center fixed;
+	background-color: #eee;
+	/*background: url('/img/homepage.jpg') no-repeat center;*/
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	height: 100%;
+  	/*height: 100%;*/
+  	overflow: auto;
 }
 
 body, html {
 	height: 100%;
 } 
+
+.post {
+	margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    max-width: 90%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
