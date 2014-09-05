@@ -40,6 +40,7 @@ Thumbs.db
 
 # Jekyll #
 ##########
+Gemfile
 Gemfile.lock
 test/dest
 *.gem
