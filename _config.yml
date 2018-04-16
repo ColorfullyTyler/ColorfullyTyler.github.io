@@ -10,3 +10,4 @@ permalink: pretty
 highlighter: pygments
 
 excerpt_separator: <!--more-->
+theme: jekyll-theme-midnight
